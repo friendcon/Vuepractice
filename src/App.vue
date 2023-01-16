@@ -5,6 +5,7 @@
     <router-link to="/htmltest">Html Test</router-link> |
     <router-link to="/inputText">InputText</router-link> |
     <router-link to="/listBinding">List Binding</router-link> |
+    <router-link to="/getServerBinding">Get Data to Server</router-link>
 
   </nav>
   <router-view/>

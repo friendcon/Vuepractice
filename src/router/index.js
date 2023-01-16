@@ -4,6 +4,7 @@ import DataBinding from '@/components/DataBinding.vue'
 import HtmlTest from '@/components/HtmlTest.vue'
 import DataBindingInputText from '@/components/DataBindingInputText.vue'
 import ListDataBinding from '@/components/ListDataBinding.vue'
+import GetServerBining from '@/components/GetServerBining.vue'
 const routes = [
   {
     path: '/',
@@ -37,6 +38,11 @@ const routes = [
     path: '/listBinding',
     name: 'ListBinding',
     component: ListDataBinding
+  },
+  {
+    path: '/getServerBinding',
+    name: 'GetServerBinding',
+    component: GetServerBining
   }
 ]
 
